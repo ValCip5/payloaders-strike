@@ -1,0 +1,26 @@
+.elBoton a{
+    font-size: 40px;
+    color: #aa54e3 !important;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.elBoton{
+    margin-left: 70px;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    min-width: 300px;
+    transition: 0.2s;
+}
+
+.elBoton:hover{
+    box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
+    transform: scale(1.1);
+}
+
+.elBoton i{
+    font-size: 30px;
+    color: #aa54e3;
+}
