@@ -1,0 +1,28 @@
+.seccion-footer {
+    background-color: rgb(94, 20, 57);
+    color: seashell;
+    font-size: 1.7rem;
+}
+
+.button-icon{
+    border-radius: 75%;
+}
+
+.button-icon:hover {
+    color: rgb(165, 2, 230);
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.container{
+    padding-top: 250px;
+}
+
+a {
+    color: seashell;
+    text-decoration: none;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+a:hover {
+    color: rgb(255, 217, 0);
+}

@@ -4,7 +4,7 @@ import Header from './componentes/Header';
 import Start from './componentes/Start';
 import Game from './componentes/Game'
 import Gallery from './componentes/Gallery'
-
+import Footer from './componentes/Footer';
 
 function App() {
   return (
@@ -15,6 +15,7 @@ function App() {
       </div>
       <Game />
       <Gallery />
+      <Footer />
     </div>
   );
 }
