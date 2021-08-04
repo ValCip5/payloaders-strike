@@ -12,6 +12,7 @@
     "paulmolluzzo.convert-css-in-js",
     "shardulm94.trailing-spaces",
     "ue.alphabetical-sorter",
-    "visioncan.vscode-jss-snippets"
+    "visioncan.vscode-jss-snippets",
+    "oderwat.indent-rainbow"
   ]
 }
