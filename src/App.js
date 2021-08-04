@@ -3,7 +3,7 @@ import './App.css';
 import Header from './componentes/Header';
 import Start from './componentes/Start';
 import Game from './componentes/Game'
-
+import Footer from './componentes/Footer';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Start />
     </div>
       <Game />
-
+      <Footer />
     </div>
   );
 }
