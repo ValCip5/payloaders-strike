@@ -1,0 +1,27 @@
+.gallery-container{
+    min-height: 100vh;
+    width: 100%;
+    padding: 70px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+.carousel-content-item {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.carousel-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.carousel-content-item-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
