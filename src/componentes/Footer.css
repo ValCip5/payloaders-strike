@@ -5,16 +5,12 @@
 }
 
 .button-icon{
-    border-radius: 75%;
+    border-radius: 50%;
 }
 
 .button-icon:hover {
-    color: rgb(165, 2, 230);
+    color: rgb(255, 217, 0);
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-}
-
-.container{
-    padding-top: 250px;
 }
 
 a {
@@ -25,4 +21,13 @@ a {
 
 a:hover {
     color: rgb(255, 217, 0);
+}
+
+.seccion-footer i{
+    display: grid;
+}
+
+.acaGrid{
+    display: grid;
+    grid-template-columns: 15% 15%;
 }
