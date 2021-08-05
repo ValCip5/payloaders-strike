@@ -4,7 +4,7 @@
     "es6": true,
     "jest": true
   },
-  "extends": ["airbnb", "prettier", "prettier/react"],
+  "extends": ["airbnb", "prettier"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -16,6 +16,8 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["react", "prettier"],
-  "rules": {}
+  "plugins": ["react", "prettier", "only-warn"],
+  "rules": {
+    "prettier/prettier": "warn"
+  }
 }
