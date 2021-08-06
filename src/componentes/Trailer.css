@@ -1,0 +1,37 @@
+.trailer{
+  min-height: 100vh;
+  padding: 80px;
+}
+
+.tituloUno{
+  font-size: 80px;
+  color: #aa54e3;
+}
+
+iframe{
+  width: 100%;
+  height: 72vh;
+}
+
+.descargar{
+  margin: auto;
+  text-align: center;
+  font-size: 60px;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.8);
+  min-width: 400px;
+  border-radius: 50px;
+}
+
+.descargar a{
+  color: #aa54e3;
+  text-decoration: none;
+}
+
+.descargar:hover{
+  box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
+}
+
+.descargar:hover{
+  transform: scale(1.1);
+}

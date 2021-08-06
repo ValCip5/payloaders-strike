@@ -9,8 +9,8 @@ function Footer() {
             <section id="footer" className="pb-5" style={{backgroundImage: `url(${imagen3})`, backgroundSize: "cover", height: "400px", paddingTop: "240px"}}>
             <Container>
                 <div>
-                        <div class="row">
-                            <div class="col align-self-start">
+                        <div className="row">
+                            <div className="col align-self-start">
                             <div>
                                 <p>FOLLOW US!</p>
                                 <div className="acaGrid">
@@ -23,13 +23,13 @@ function Footer() {
                                 </div>
                             </div>
                             </div>
-                        <div class="col text-center">
+                        <div className="col text-center">
                             <p>JOIN OUR COMMUNITY!</p>
                             <a href="#" className="button-icon">
-                            <i class="bi bi-discord"></i>
+                            <i className="bi bi-discord"></i>
                             </a>
                         </div>
-                        <div class="col text-end">
+                        <div className="col text-end">
                         <h2>CONTACT US!</h2>
                         <p></p>
                         <a href="#" className="community">Press Kit</a>

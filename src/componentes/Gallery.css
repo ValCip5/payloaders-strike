@@ -3,7 +3,8 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 80px calc(80px - 1.5rem);
+  padding: 80px;
+  padding-bottom: 0;
 }
 
 .carousel-content-item {

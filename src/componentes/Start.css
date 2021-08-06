@@ -16,7 +16,7 @@
 }
 
 .elBoton:hover{
-    box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
+
     transform: scale(1.1);
 }
 

@@ -39,17 +39,17 @@ const secondList = [
 function Gallery() {
   return (
     <section id="gallery" className="gallery-container">
-      <Carousel variant="dark" controls={false}>
+      <Carousel variant="dark" controls={false} className="pb-5">
         {firstList.map(item => (
           <Carousel.Item key={item.id}>
             <div className="carousel-content-item">
-              <div className="w-50 p-4">
+              <div className="w-50">
                 <div
                   className="carousel-content-item-image"
                   style={{ backgroundImage: `url(${item.imgUrl})` }}
                 />
               </div>
-              <div className="w-50 p-4">
+              <div className="w-5 p-4">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
@@ -65,7 +65,7 @@ function Gallery() {
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
-              <div className="w-50 p-4">
+              <div className="w-50">
                 <div
                   className="carousel-content-item-image"
                   style={{ backgroundImage: `url(${item.imgUrl})` }}

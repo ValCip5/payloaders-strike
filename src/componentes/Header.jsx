@@ -13,8 +13,8 @@ function Header() {
                 <Nav.Link href="#start">START</Nav.Link>
                 <Nav.Link href="#game">GAME</Nav.Link>
                 <Nav.Link href="#gallery">GALLERY</Nav.Link>
+                <Nav.Link href="#trailer">TRAILER</Nav.Link>
                 <Nav.Link href="#play">PLAY</Nav.Link>
-                <Nav.Link href="#play">TRAILER</Nav.Link>
               </Nav>
               </Container>
           </Navbar>
