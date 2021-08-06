@@ -39,7 +39,7 @@ const secondList = [
 function Gallery() {
   return (
     <section id="gallery" className="gallery-container">
-      <Carousel variant="dark" controls={false} fade>
+      <Carousel variant="dark" controls={false}>
         {firstList.map(item => (
           <Carousel.Item key={item.id}>
             <div className="carousel-content-item">
@@ -57,7 +57,7 @@ function Gallery() {
           </Carousel.Item>
         ))}
       </Carousel>
-      <Carousel variant="dark" controls={false} fade slide={false}>
+      <Carousel variant="dark" controls={false}>
         {secondList.map(item => (
           <Carousel.Item key={item.id}>
             <div className="carousel-content-item">
