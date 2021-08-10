@@ -12,5 +12,20 @@
 .infoUno, .infoDos{
     background-color: rgba(0, 0, 0, 0.8);
     box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
-    min-width: 488px;
+    max-width: 488px;
+}
+
+@media only screen and (max-width: 650px) {
+    .infoUno, .infoDos{
+        max-width: unset;
+    }
+
+    .seccionUno, .seccionDos{
+        padding: 20px !important;
+        height: unset !important;
+    }
+
+    .seccionDos .text-end{
+        text-align: unset !important;
+    }
 }

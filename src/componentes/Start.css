@@ -1,26 +1,56 @@
 .elBoton a{
+    display: block;
     font-size: 40px;
-    color: #aa54e3 !important;
+    color: #aa54e3;
     text-decoration: none;
     text-align: center;
-    border-radius: 50px;
-}
-
-.elBoton{
-    margin-left: 70px;
     background-color: rgba(0, 0, 0, 0.8);
-    text-align: center;
     border-radius: 50px;
-    min-width: 300px;
+    max-width: 320px;
     transition: 0.2s;
 }
 
-.elBoton:hover{
-
+.elBoton a:hover{
     transform: scale(1.1);
+    color: rgb(255, 217, 0);
+}
+
+.elBoton{
+    margin-left: 65px;
 }
 
 .elBoton i{
     font-size: 30px;
-    color: #aa54e3;
 }
+
+@media only screen and (max-width: 992px) {
+    .elBoton a{
+        margin: auto;
+    }
+
+    .elBoton{
+        margin-left: unset;
+    }
+    
+
+    .seccionUno .container{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 556px) {
+    .seccionUno img{
+        width: 100%;
+    }
+
+    .elBoton a{
+        padding: 15px !important;
+        font-size: 29px;
+    }
+
+    .imgFondo{
+        height: 500px;
+    }
+}
+
+

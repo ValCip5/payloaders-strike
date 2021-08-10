@@ -8,6 +8,29 @@
   color: #aa54e3;
 }
 
+
+.elBotonDos a{
+  background: rgba(0, 0, 0, 0.8);
+  font-size: 3rem;
+  border-radius: 50px;
+  color: #aa54e3;
+  text-decoration: none;
+  transition: 0.2s;
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+.elBotonDos i{
+  position: relative;
+  top: 5px;
+}
+
+.elBotonDos a:hover{
+  transform: scale(1.1);
+  color: rgb(255, 217, 0);
+}
+
 iframe{
   width: 100%;
   height: 72vh;

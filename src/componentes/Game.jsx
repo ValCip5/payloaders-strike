@@ -19,7 +19,7 @@ function Game() {
         }}
       >
         <Fade left>
-          <div className="infoUno p-4 col-sm-4">
+          <div className="infoUno p-4">
             <h2>Lorem Ipsum</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
@@ -40,7 +40,7 @@ function Game() {
         }}
       >
         <Fade right>
-          <div className="infoDos p-4 text-end col-sm-4 ms-auto">
+          <div className="infoDos p-4 text-end ms-auto">
             <h2>Lorem Ipsum</h2>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
