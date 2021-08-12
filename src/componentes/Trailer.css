@@ -58,3 +58,20 @@ iframe{
 .descargar:hover{
   transform: scale(1.1);
 }
+
+@media only screen and (max-width: 650px) {
+ 
+  .trailer{
+    padding: 20px;
+  }
+
+  .tituloUno{
+    text-align: center;
+  }
+  
+  .elBotonDos a{
+    font-size: 1.5rem;
+    max-width: 300px;
+  }
+
+}

@@ -8,7 +8,7 @@ function Trailer() {
             TRAILER
           </h2>
 
-          <iframe className="py-4 mb-5" src="https://www.youtube-nocookie.com/embed/gj32vekphz8?start=170" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
+          <iframe className="py-4" src="https://www.youtube-nocookie.com/embed/gj32vekphz8?start=170" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture">
           </iframe>
 
           
