@@ -2,6 +2,8 @@
 .seccionDos h2 {
   color: #aa54e3;
   font-size: 60px;
+  line-height: 50px;
+  padding-bottom: 15px;
 }
 
 .seccionUno p,

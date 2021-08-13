@@ -20,12 +20,12 @@ function Game() {
       >
         <Fade left>
           <div className="infoUno p-4">
-            <h2>Lorem Ipsum</h2>
+            <h2>From The Deepest To The Top</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              at consectetur debitis recusandae magni possimus minima nulla,
-              incidunt sequi? Consectetur totam ipsa repellendus iste unde?
-              Laborum magni sint quas sed!
+            Your task is to destroy Concrete, the company that made you 
+            a slave to their wishes. Your only obstacle is the infinitely 
+            tall Inverted Tower and every construction and security robot
+            within. In order to free them, you’ll have to fight them.
             </p>
           </div>
         </Fade>
@@ -41,12 +41,16 @@ function Game() {
       >
         <Fade right>
           <div className="infoDos p-4 text-end ms-auto">
-            <h2>Lorem Ipsum</h2>
+            <h2>First Person Character Action</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus
-              at consectetur debitis recusandae magni possimus minima nulla,
-              incidunt sequi? Consectetur totam ipsa repellendus iste unde?
-              Laborum magni sint quas sed!
+                The frenetic pace of a hack and slash is met with 
+                an fps perspective in this fusion of pure, fast 
+                paced combat within an immersive world. You’ll be 
+                facing heavy resistance from challenging enemies 
+                and your best weapon is style!
+                The weapon combo system and your giant loading claw
+                will make short work of any threat if you’re willing 
+                to master them.
             </p>
           </div>
         </Fade>
