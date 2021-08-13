@@ -13,7 +13,7 @@ function Trailer() {
 
           
           <h2 className="col-sm-12 py-2 px-5 text-center elBotonDos">
-              <a className="py-3 px-5" id="play" href="https://all-and-the-gang.itch.io/payloaders-strike"><i className="bi-play-fill pe-3"></i>PLAY THE DEMO</a>
+              <a className="py-3 px-3" id="play" href="https://all-and-the-gang.itch.io/payloaders-strike"><i className="bi-play-fill pe-3"></i>PLAY THE DEMO</a>
           </h2>
     </section>
   )

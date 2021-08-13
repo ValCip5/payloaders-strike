@@ -74,4 +74,8 @@ iframe{
     max-width: 300px;
   }
 
+  .elBotonDos i{
+    top: 3px;
+  }
+  
 }

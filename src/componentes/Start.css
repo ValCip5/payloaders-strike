@@ -48,6 +48,11 @@
         font-size: 29px;
     }
 
+    .elBoton i{
+        position: relative;
+        top: 3px;
+    }
+
     .imgFondo{
         height: 500px;
     }
