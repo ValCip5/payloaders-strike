@@ -1,31 +1,41 @@
-.seccionUno h2, .seccionDos h2{
-    color: #aa54e3;
-    font-size: 60px;
+.seccionUno h2,
+.seccionDos h2 {
+  color: #aa54e3;
+  font-size: 60px;
 }
 
-.seccionUno p, .seccionDos p{
-    color: #aa54e3;
-    font-size: 1.7rem;
-    line-height: 90%;
+.seccionUno p,
+.seccionDos p {
+  color: #aa54e3;
+  font-size: 1.7rem;
+  line-height: 90%;
 }
 
-.infoUno, .infoDos{
-    background-color: rgba(0, 0, 0, 0.8);
-    box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
-    max-width: 488px;
+.seccionDos p,
+.seccionDos h2 {
+  color: rgb(226 180 44);
+}
+
+.infoUno,
+.infoDos {
+  background-color: rgba(0, 0, 0, 0.8);
+  box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
+  max-width: 488px;
 }
 
 @media only screen and (max-width: 650px) {
-    .infoUno, .infoDos{
-        max-width: unset;
-    }
+  .infoUno,
+  .infoDos {
+    max-width: unset;
+  }
 
-    .seccionUno, .seccionDos{
-        padding: 20px !important;
-        height: unset !important;
-    }
+  .seccionUno,
+  .seccionDos {
+    padding: 20px !important;
+    height: unset !important;
+  }
 
-    .seccionDos .text-end{
-        text-align: unset !important;
-    }
+  .seccionDos .text-end {
+    text-align: unset !important;
+  }
 }

@@ -10,13 +10,13 @@
 .carousel-content-item {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .carousel-content-left {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  text-align: right;
 }
 
 .carousel-content-item-image {
@@ -24,4 +24,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 40vh;
+}
+
+.carousel-content-item-text {
+  color: rgb(226 180 44);
+  font-size: 22px;
+  line-height: 1.3;
+}
+
+.carousel-content-div {
+  display: flex;
 }

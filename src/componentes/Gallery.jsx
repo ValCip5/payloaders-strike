@@ -6,17 +6,28 @@ import "./Gallery.css";
 const firstList = [
   {
     id: "topimg1",
-    imgUrl: "https://i.ytimg.com/vi/MWa0ZOFXsXI/maxresdefault.jpg",
-    title: "Some Title here",
-    description: "Nulla vitae elit libero, a pharetra augue mollis interdum."
+    imgUrl: "img/gallery-img/nailgun_hd.png",
+    title: "Arsenal",
+    description: "Gravity Nailgun - leave them helpless - Any good air combo starts with a Gravity Nailgun shot. Lift them up, then meet them up close."
   },
   {
     id: "topimg2",
-    imgUrl:
-      "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2021/01/minecraft-2193723.jpg?itok=m6n_GOra",
-    title: "Another Title here",
-    description: "Nulla vitae elit libero, a pharetra augue mollis interdum."
-  }
+    imgUrl: "img/gallery-img/rifle_hd.png",
+    title: "Arsenal",
+    description: "Anchor Rifle - the icing on the cake (it’s a railgun) - While a shot from a high caliber rifle is always effective, the Anchor Rifle also makes anything that flies hurl towards the ground. The perfect finisher for your 20 hit combo."
+  },
+  {
+    id: "topimg3",
+    imgUrl: "img/gallery-img/shutgan_hd.png",
+    title: "Arsenal",
+    description: "Security Shotgun - the classic workhorse - Get close, fire a shot, watch them explode. High risk, higher reward, unmatched style."
+  },
+  {
+    id: "topimg4",
+    imgUrl: "img/gallery-img/smg_hd.png",
+    title: "Arsenal",
+    description: "C6 SMG - anything can be a bomb if you try - Hitting anything with this plastic explosive projectiles makes them a walking grenade, and it can detonate in any number of creative ways."
+  },
 ];
 
 const secondList = [
@@ -39,17 +50,17 @@ const secondList = [
 function Gallery() {
   return (
     <section id="gallery" className="gallery-container">
-      <Carousel variant="dark" controls={false} className="pb-5">
+      <Carousel pause={false} variant="dark" controls={false} className="pb-3" fade>
         {firstList.map(item => (
           <Carousel.Item key={item.id}>
-            <div className="carousel-content-item">
-              <div className="w-50">
+            <div className="carousel-content-item w-100">
+              <div className="w-50 p-3">
                 <div
-                  className="carousel-content-item-image"
+                  className="w-100 carousel-content-item-image"
                   style={{ backgroundImage: `url(${item.imgUrl})` }}
                 />
               </div>
-              <div className="w-5 p-4">
+              <div className="w-50 p-3 carousel-content-item-text">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
@@ -57,24 +68,25 @@ function Gallery() {
           </Carousel.Item>
         ))}
       </Carousel>
-      <Carousel variant="dark" controls={false}>
-        {secondList.map(item => (
-          <Carousel.Item key={item.id}>
-            <div className="carousel-content-item">
-              <div className="w-50 p-4 carousel-content-left ">
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
-              <div className="w-50">
+
+      <div className="carousel-content-div" >
+        <div className="w-50 p-3 carousel-content-left carousel-content-item-text">
+          <h3>Graviton Engine Facility:</h3>
+          <p>A prison and a factory fused together in order to hold the Inverted Tower in place. The ominous inner tower overlooks the worker’s production in the outer rings. The Graviton Engines are vital components to the tower’s integrity, and a  huge number of security forces are needed in order to protect them. Your objective is to get past the security controls, destroy the Graviton Engines and face Beady, the taskmaster of the whole sector.</p>
+        </div>
+        <Carousel pause={false} variant="dark" controls={false} className="w-50" fade>
+          {secondList.map(item => (
+            <Carousel.Item key={item.id}>
+              <div className="carousel-content-item w-100 p-3">
                 <div
-                  className="carousel-content-item-image"
+                  className="w-100 carousel-content-item-image"
                   style={{ backgroundImage: `url(${item.imgUrl})` }}
                 />
               </div>
-            </div>
-          </Carousel.Item>
-        ))}
-      </Carousel>
+            </Carousel.Item>
+          ))}
+        </Carousel>
+      </div>
     </section>
   );
 }
