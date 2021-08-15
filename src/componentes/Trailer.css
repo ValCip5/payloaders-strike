@@ -11,19 +11,19 @@
 
 .elBotonDos a{
   background: rgba(0, 0, 0, 0.8);
-  font-size: 3rem;
+  font-size: 28px;
   border-radius: 50px;
   color: #aa54e3;
   text-decoration: none;
   transition: 0.2s;
   display: block;
-  max-width: 500px;
+  max-width: 300px;
   margin: auto;
 }
 
 .elBotonDos i{
   position: relative;
-  top: 5px;
+  top: 3px;
 }
 
 .elBotonDos a:hover{
@@ -36,29 +36,6 @@ iframe{
   height: 72vh;
 }
 
-.descargar{
-  margin: auto;
-  text-align: center;
-  font-size: 60px;
-  transition: 0.2s;
-  background-color: rgba(0, 0, 0, 0.8);
-  min-width: 400px;
-  border-radius: 50px;
-}
-
-.descargar a{
-  color: #aa54e3;
-  text-decoration: none;
-}
-
-.descargar:hover{
-  box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
-}
-
-.descargar:hover{
-  transform: scale(1.1);
-}
-
 @media only screen and (max-width: 650px) {
  
   .trailer{
@@ -68,14 +45,18 @@ iframe{
   .tituloUno{
     text-align: center;
   }
-  
-  .elBotonDos a{
-    font-size: 1.5rem;
-    max-width: 300px;
-  }
 
   .elBotonDos i{
     top: 3px;
   }
   
 }
+
+@media only screen and (max-width: 400px) {
+
+  .elBotonDos a{
+
+    min-width: 100%;
+  }
+}
+

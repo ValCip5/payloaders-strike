@@ -1,12 +1,12 @@
 .elBoton a{
     display: block;
-    font-size: 40px;
+    font-size: 28px;
     color: #aa54e3;
     text-decoration: none;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.8);
     border-radius: 50px;
-    max-width: 320px;
+    max-width: 260px;
     transition: 0.2s;
 }
 
@@ -16,11 +16,13 @@
 }
 
 .elBoton{
-    margin-left: 65px;
+    margin-left: 110px;
 }
 
 .elBoton i{
     font-size: 30px;
+    position: relative;
+    top: 3px;
 }
 
 @media only screen and (max-width: 992px) {
@@ -41,11 +43,6 @@
 @media only screen and (max-width: 556px) {
     .seccionUno img{
         width: 100%;
-    }
-
-    .elBoton a{
-        padding: 15px !important;
-        font-size: 29px;
     }
 
     .elBoton i{

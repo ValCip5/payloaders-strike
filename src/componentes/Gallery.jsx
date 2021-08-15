@@ -14,7 +14,7 @@ const firstList = [
     id: "topimg2",
     imgUrl: "img/gallery-img/rifle_hd.png",
     title: "Arsenal",
-    description: "Anchor Rifle - the icing on the cake (it’s a railgun) - While a shot from a high caliber rifle is always effective, the Anchor Rifle also makes anything that flies hurl towards the ground. The perfect finisher for your 20 hit combo."
+    description: "Anchor Rifle - the icing on the cake (it’s a railgun) - A shot from a high caliber rifle is always effective."
   },
   {
     id: "topimg3",
@@ -26,7 +26,7 @@ const firstList = [
     id: "topimg4",
     imgUrl: "img/gallery-img/smg_hd.png",
     title: "Arsenal",
-    description: "C6 SMG - anything can be a bomb if you try - Hitting anything with this plastic explosive projectiles makes them a walking grenade, and it can detonate in any number of creative ways."
+    description: "C6 SMG - anything can be a bomb if you try - Hitting anything with this plastic explosive projectiles makes them a walking grenade."
   },
 ];
 
