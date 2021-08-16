@@ -10,6 +10,13 @@
 .carousel-content-item {
   display: flex;
   flex-direction: row;
+  width: 100%;
+}
+
+.carousel-content-div-item,
+.carousel-content-item-left,
+.carousel-content-item-right {
+  width: 50%;
 }
 
 .carousel-content-left {
@@ -36,7 +43,6 @@
   display: flex;
 }
 
-
 .gallery-container {
   min-height: 100vh;
   width: 100%;
@@ -47,9 +53,18 @@
 }
 
 @media only screen and (max-width: 650px) {
-
   .gallery-container {
     padding: 20px;
-  }  
-
+  }
+  .carousel-content-div {
+    flex-wrap: wrap;
+  }
+  .carousel-content-item {
+    flex-wrap: wrap-reverse;
+  }
+  .carousel-content-div-item,
+  .carousel-content-item-left,
+  .carousel-content-item-right {
+    width: 100%;
+  }
 }

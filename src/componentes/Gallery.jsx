@@ -53,14 +53,14 @@ function Gallery() {
       <Carousel pause={false} variant="dark" controls={false} className="pb-3" fade>
         {firstList.map(item => (
           <Carousel.Item key={item.id}>
-            <div className="carousel-content-item w-100">
-              <div className="w-50 p-3">
+            <div className="carousel-content-item">
+              <div className="p-3 carousel-content-item-left">
                 <div
                   className="w-100 carousel-content-item-image"
                   style={{ backgroundImage: `url(${item.imgUrl})` }}
                 />
               </div>
-              <div className="w-50 p-3 carousel-content-item-text">
+              <div className="p-3 carousel-content-item-right carousel-content-item-text">
                 <h3>{item.title}</h3>
                 <p>{item.description}</p>
               </div>
@@ -70,11 +70,11 @@ function Gallery() {
       </Carousel>
 
       <div className="carousel-content-div" >
-        <div className="w-50 p-3 carousel-content-left carousel-content-item-text">
+        <div className="p-3 carousel-content-div-item carousel-content-left carousel-content-item-text">
           <h3>Graviton Engine Facility:</h3>
           <p>A prison and a factory fused together in order to hold the Inverted Tower in place. The ominous inner tower overlooks the worker’s production in the outer rings. The Graviton Engines are vital components to the tower’s integrity, and a  huge number of security forces are needed in order to protect them. Your objective is to get past the security controls, destroy the Graviton Engines and face Beady, the taskmaster of the whole sector.</p>
         </div>
-        <Carousel pause={false} variant="dark" controls={false} className="w-50" fade>
+        <Carousel pause={false} variant="dark" controls={false} className="carousel-content-div-item" fade>
           {secondList.map(item => (
             <Carousel.Item key={item.id}>
               <div className="carousel-content-item w-100 p-3">
