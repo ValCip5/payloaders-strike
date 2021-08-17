@@ -36,6 +36,7 @@
   .infoUno,
   .infoDos {
     max-width: unset;
+    margin: unset;
   }
 
   .seccionUno,
