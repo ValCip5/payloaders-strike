@@ -37,6 +37,7 @@
   .infoDos {
     max-width: unset;
     margin: unset;
+    text-align: left;
   }
 
   .seccionUno,
@@ -47,5 +48,9 @@
 
   .seccionDos .text-end {
     text-align: unset !important;
+  }
+
+  .carousel-content-div{
+    text-align: left;
   }
 }
