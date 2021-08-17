@@ -15,7 +15,7 @@ function Trailer() {
 
           
           <h2 className="col-sm-12 py-4 text-center elBotonDos">
-              <a className="py-3 px-3" id="play" href="https://all-and-the-gang.itch.io/payloaders-strike"><i className="bi-play-fill pe-3"></i>PLAY THE DEMO</a>
+              <a className="py-3 px-3" id="play" href="https://drive.google.com/uc?export=download&id=1QxY09ee5keD2--4w70JMsb7tv5PlY5YX" target="_blank" rel="noreferrer"><i className="bi-play-fill pe-3"></i>PLAY THE DEMO</a>
           </h2>
       </Container>
     </section>
