@@ -1,4 +1,5 @@
 import React from "react";
+import { Container } from "react-bootstrap";
 import Carousel from "react-bootstrap/Carousel";
 // styles
 import "./Gallery.css";
@@ -50,6 +51,7 @@ const secondList = [
 function Gallery() {
   return (
     <section id="gallery" className="gallery-container">
+      <Container>
       <Carousel pause={false} variant="dark" controls={false} className="pb-3" fade>
         {firstList.map(item => (
           <Carousel.Item key={item.id}>
@@ -71,7 +73,7 @@ function Gallery() {
 
       <div className="carousel-content-div" >
         <div className="p-3 carousel-content-div-item carousel-content-left carousel-content-item-text">
-          <h3>Graviton Engine Facility:</h3>
+          <h3>Graviton Engine Facility</h3>
           <p>A prison and a factory fused together in order to hold the Inverted Tower in place. The ominous inner tower overlooks the worker’s production in the outer rings. The Graviton Engines are vital components to the tower’s integrity, and a  huge number of security forces are needed in order to protect them. Your objective is to get past the security controls, destroy the Graviton Engines and face Beady, the taskmaster of the whole sector.</p>
         </div>
         <Carousel pause={false} variant="dark" controls={false} className="carousel-content-div-item" fade>
@@ -87,6 +89,7 @@ function Gallery() {
           ))}
         </Carousel>
       </div>
+      </Container>
     </section>
   );
 }

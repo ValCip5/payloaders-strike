@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container'
 function Footer() {
     return (
         <footer>
-            <section id="footer" className="pb-5" style={{ backgroundImage: `url(${imagen3})`, backgroundSize: "cover", height: "100%", paddingTop: "240px" }}>
+            <section id="footer" className="pb-5" style={{ backgroundImage: `url(${imagen3})`, backgroundSize: "cover", height: "100%", paddingTop: "240px", backgroundPosition: "center" }}>
                 <Container>
                     <div>
                         <div className="row">
@@ -31,14 +31,14 @@ function Footer() {
 
                             <div className="columnaTres col-md-12 col-lg-6 col-xl-3 text-center">
                                 <h3 className="mb-3">CONTACT US!</h3>
-                                <a target="_blank" rel="noreferrer"  href="mailto:uviejaentanga@gmail.es.tl" className="button-icon">
+                                <a target="_blank" rel="noreferrer"  href="mailto:payloadersteam@gmail.com" className="button-icon">
                                     <i className="bi bi-envelope-fill"></i>
                                 </a>
                             </div>
 
                             <div className="columnaCuatro col-md-12 col-lg-6 col-xl-3 text-center">
                                 <h3 className="mb-3">PRESS KIT!</h3>
-                                <a target="_blank" rel="noreferrer"  href="https://drive.google.com/drive/folders/1sIwLb5tOuztEZJTi_eeeV326O0_0OT8P?usp=sharing" className="button-icon">
+                                <a target="_blank" rel="noreferrer"  href="https://drive.google.com/uc?export=download&id=147AWvVgYBz4jYicUdR6c9lLdIrqv6SBr" className="button-icon">
                                     <i className="bi bi-file-zip-fill"></i>
                                 </a>
                             </div>

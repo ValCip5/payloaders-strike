@@ -1,15 +1,14 @@
 .seccionUno h2,
 .seccionDos h2 {
   color: #aa54e3;
-  font-size: 50px;
+  font-size: 38px;
   line-height: 50px;
-  padding-bottom: 15px;
 }
 
 .seccionUno p,
 .seccionDos p {
   color: #aa54e3;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   line-height: 90%;
 }
 

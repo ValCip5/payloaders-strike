@@ -7,6 +7,14 @@
   padding-bottom: 0;
 }
 
+.gallery-container p {
+  font-size: 1.2rem;
+}
+
+.gallery-container h3 {
+  font-size: 38px;
+}
+
 .carousel-content-item {
   display: flex;
   flex-direction: row;
