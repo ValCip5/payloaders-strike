@@ -2,7 +2,7 @@
 .seccionDos h2 {
   color: #aa54e3;
   font-size: 38px;
-  line-height: 50px;
+  line-height: 40px;
 }
 
 .seccionUno p,
@@ -21,7 +21,15 @@
 .infoDos {
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: rgba(0, 0, 0, 0.432) 0px 2px 8px 0px;
-  max-width: 488px;
+  max-width: 380px;
+}
+
+.infoUno{
+  margin-left: -6vw;
+}
+
+.infoDos{
+  margin-right: -6vw;
 }
 
 @media only screen and (max-width: 650px) {
