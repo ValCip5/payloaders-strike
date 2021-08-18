@@ -1,14 +1,20 @@
 * {
-  font-family: 'Iceland', cursive;
+  font-family: "Iceland", cursive;
 }
 
-.imgFondo{
+.imgFondo {
   background: url(./fondo.png);
   background-size: cover;
   width: 100%;
   height: 100vh;
+  background-position: center;
 }
 
-body{
-  background: linear-gradient(90deg, rgba(47,0,28,1) 0%, rgba(110,0,69,1) 50%, rgba(33,0,20,1) 100%);
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(47, 0, 28, 1) 0%,
+    rgba(110, 0, 69, 1) 50%,
+    rgba(33, 0, 20, 1) 100%
+  );
 }
