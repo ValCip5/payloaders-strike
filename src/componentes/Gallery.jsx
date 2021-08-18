@@ -7,27 +7,33 @@ import "./Gallery.css";
 const firstList = [
   {
     id: "topimg1",
-    imgUrl: "img/gallery-img/nailgun_hd.png",
+    imgUrl: "img/gif/nailgun.gif",
     title: "Arsenal",
     description: "Gravity Nailgun - leave them helpless - Any good air combo starts with a Gravity Nailgun shot. Lift them up, then meet them up close."
   },
   {
     id: "topimg2",
-    imgUrl: "img/gallery-img/rifle_hd.png",
+    imgUrl: "img/gif/anchorRifle.gif",
     title: "Arsenal",
     description: "Anchor Rifle - the icing on the cake (it’s a railgun) - A shot from a high caliber rifle is always effective."
   },
   {
     id: "topimg3",
-    imgUrl: "img/gallery-img/shutgan_hd.png",
+    imgUrl: "img/gif/shutgan.gif",
     title: "Arsenal",
     description: "Security Shotgun - the classic workhorse - Get close, fire a shot, watch them explode. High risk, higher reward, unmatched style."
   },
   {
     id: "topimg4",
-    imgUrl: "img/gallery-img/smg_hd.png",
+    imgUrl: "img/gif/sMG.gif",
     title: "Arsenal",
     description: "C6 SMG - anything can be a bomb if you try - Hitting anything with this plastic explosive projectiles makes them a walking grenade."
+  },
+  {
+    id: "topimg5",
+    imgUrl: "img/gif/clawActions.gif",
+    title: "Arsenal",
+    description: "Loading Claw - take matters into your own hands - Grapple any enemy and throw them around. Grab any weapon and use them as your own. Parry any attack in the game. The perfect tool for any job."
   },
 ];
 
