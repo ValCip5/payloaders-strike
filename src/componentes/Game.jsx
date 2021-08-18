@@ -9,19 +9,19 @@ import { Container } from "react-bootstrap";
 function Game() {
   return (
     <div>
-      <section id="game" className="seccionUno" style={{backgroundImage: `url(${imagen1})`, backgroundSize: "cover",backgroundPosition: "center",height: "100vh", padding: "60px"}}>
+      <section id="game" className="seccionUno" style={{ backgroundImage: `url(${imagen1})`, backgroundSize: "cover", backgroundPosition: "center", height: "100vh", padding: "60px" }}>
         <Container>
-        <Fade left>
-          <div className="infoUno p-3">
-            <h2>From The Deepest To The Top</h2>
-            <p>
-            Your task is to destroy Concrete, the company that made you 
-            a slave to their wishes. Your only obstacle is the infinitely 
-            tall Inverted Tower and every construction and security robot
-            within. In order to free them, you’ll have to fight them.
-            </p>
-          </div>
-        </Fade>
+          <Fade left>
+            <div className="infoUno p-3">
+              <h2>From The Deepest Pit To The Top Of The World</h2>
+              <p>
+                Your task is to destroy Concrete, the company that made you
+                a slave to their wishes. Your only obstacle is the infinitely
+                tall Inverted Tower and every construction and security robot
+                within. In order to free them, you’ll have to fight them.
+              </p>
+            </div>
+          </Fade>
         </Container>
       </section>
       <section
@@ -35,21 +35,21 @@ function Game() {
         }}
       >
         <Container>
-        <Fade right>
-          <div className="infoDos p-3 text-end ms-auto">
-            <h2>First Person Character Action</h2>
-            <p>
-                The frenetic pace of a hack and slash is met with 
-                an fps perspective in this fusion of pure, fast 
-                paced combat within an immersive world. You’ll be 
-                facing heavy resistance from challenging enemies 
+          <Fade right>
+            <div className="infoDos p-3 text-end ms-auto">
+              <h2>First Person Character Action</h2>
+              <p>
+                The frenetic pace of a hack and slash is met with
+                an fps perspective in this fusion of pure, fast
+                paced combat within an immersive world. You’ll be
+                facing heavy resistance from challenging enemies
                 and your best weapon is style!
                 The weapon combo system and your giant loading claw
-                will make short work of any threat if you’re willing 
+                will make short work of any threat if you’re willing
                 to master them.
-            </p>
-          </div>
-        </Fade>
+              </p>
+            </div>
+          </Fade>
         </Container>
       </section>
     </div>
