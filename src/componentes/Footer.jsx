@@ -13,12 +13,12 @@ function Footer() {
                             <div className="columnaUno col-md-12 col-lg-6 col-xl-3 text-center">
                                 <div>
                                     <h3 className="mb-3">FOLLOW US!</h3>
-                                        <a target="_blank"  rel="noreferrer" href="https://twitter.com/Payloaders_Team" className="button-icon">
-                                            <i className="bi bi-twitter"></i>
-                                        </a>
-                                        <a target="_blank"  rel="noreferrer" href="https://www.instagram.com/payloadersstrike/" className="button-icon">
-                                            <i className="bi bi-instagram"></i>
-                                        </a>
+                                    <a target="_blank" rel="noreferrer" href="https://twitter.com/Payloaders_Team" className="button-icon">
+                                        <i className="bi bi-twitter"></i>
+                                    </a>
+                                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/payloadersstrike/" className="button-icon">
+                                        <i className="bi bi-instagram"></i>
+                                    </a>
                                 </div>
                             </div>
 
@@ -31,14 +31,14 @@ function Footer() {
 
                             <div className="columnaTres col-md-12 col-lg-6 col-xl-3 text-center">
                                 <h3 className="mb-3">CONTACT US!</h3>
-                                <a target="_blank" rel="noreferrer"  href="mailto:payloadersteam@gmail.com" className="button-icon">
+                                <a target="_blank" rel="noreferrer" href="mailto:payloadersteam@gmail.com" className="button-icon">
                                     <i className="bi bi-envelope-fill"></i>
                                 </a>
                             </div>
 
                             <div className="columnaCuatro col-md-12 col-lg-6 col-xl-3 text-center">
                                 <h3 className="mb-3">PRESS KIT!</h3>
-                                <a target="_blank" rel="noreferrer"  href="https://drive.google.com/uc?export=download&id=147AWvVgYBz4jYicUdR6c9lLdIrqv6SBr" className="button-icon">
+                                <a target="_blank" rel="noreferrer" href="" className="button-icon">
                                     <i className="bi bi-file-zip-fill"></i>
                                 </a>
                             </div>
