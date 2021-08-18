@@ -9,7 +9,7 @@ import { Container } from "react-bootstrap";
 function Game() {
   return (
     <div>
-      <section id="game" className="seccionUno" style={{backgroundImage: `url(${imagen1})`, backgroundSize: "cover",backgroundPosition: "center",height: "100vh", padding: "80px"}}>
+      <section id="game" className="seccionUno" style={{backgroundImage: `url(${imagen1})`, backgroundSize: "cover",backgroundPosition: "center",height: "100vh", padding: "60px"}}>
         <Container>
         <Fade left>
           <div className="infoUno p-3">
@@ -31,7 +31,7 @@ function Game() {
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "100vh",
-          padding: "80px"
+          padding: "60px"
         }}
       >
         <Container>

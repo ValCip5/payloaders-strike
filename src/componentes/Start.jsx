@@ -11,7 +11,7 @@ function Start() {
                 </div>
                 <div>
                     <div className="elBoton mt-3 py-2">
-                        <a className="px-4 py-2" href="https://drive.google.com/uc?export=download&id=1QxY09ee5keD2--4w70JMsb7tv5PlY5YX"><i className="bi-play-fill pe-3"></i>PLAY GAME</a>
+                        <a className="px-4 py-2" href="https://drive.google.com/uc?export=download&id=1QxY09ee5keD2--4w70JMsb7tv5PlY5YX" target="_blank" rel="noreferrer"><i className="bi-play-fill pe-3"></i>PLAY GAME</a>
                     </div>
                 </div>
             </Container>
